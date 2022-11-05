@@ -1,0 +1,32 @@
+.reservar-mesas {
+    margin: 20px 0;
+}
+
+.solicitar-reserva {
+    text-align: center;
+}
+
+.mesa {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.boton-reservas {
+    width: 30%;
+}
+
+.boton-reservas:hover {
+    width: 35%;
+}
+
+.legends-en-registro {
+    color: black;
+    background-color: white;
+    font-size: 120%;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.input-registro {
+    font-size: 120%;
+}

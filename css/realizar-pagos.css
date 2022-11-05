@@ -1,0 +1,33 @@
+#pagos-adeudados {
+    margin-left: 20px;
+}
+
+.mensaje-libre-deuda {
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.reserva-agendada {
+    font-size: 180%;
+    margin: 5px;
+}
+
+.contenedor_botones_pago_y_cancelacion {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boton-cancelar-reserva {
+    background-color: rgb(255, 161, 161); 
+}
+
+.boton-realizar-pago {
+    background-color: lightblue;
+}
+
+.boton-realizar-pago,
+.boton-cancelar-reserva {
+    font-size: 150%;
+    margin: 5px;
+    border-radius: 3px;
+}
