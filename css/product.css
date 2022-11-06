@@ -1,7 +1,6 @@
 .app-mobile{
-  display: flex;
-  margin: 7%;
-  justify-content: center;
+	display: none;
+	visibility: hidden;
 }
 
 .phone{
@@ -374,3 +373,9 @@ main {
       padding-bottom: 5%;
     }
 }
+
+.app-mobile-login-condition{
+	display: flex;
+  	margin: 7%;
+  	justify-content: center;
+  }

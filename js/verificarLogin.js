@@ -1,9 +1,13 @@
 import UsuarioRegistradoService from './usuariosRegistradosService.js';
 
+
 const usuarioIngresado = document.getElementById('usuario-ingresado');
 const contrasenaIngresado = document.getElementById('contrasena-ingresado');
 
 const botonIngresar = document.getElementById('boton-ingresar');
+//const mostrarApps = document.getElementById('phone-login');
+
+
 
 botonIngresar.addEventListener('click', (evento) => {
     evento.preventDefault();
@@ -32,6 +36,8 @@ botonIngresar.addEventListener('click', (evento) => {
                             if(usuario.password == contrasenaIngresado.value) {
                                 alert('Sea bienvenido ' + usuario.nombre + ' ' + usuario.apellido);
                                 sessionStorage.setItem('usuario', usuario.id);
+                                
+
                             } else {
                                 alert('Contraseña incorrecta, inténtelo nuevamente.');
                             }

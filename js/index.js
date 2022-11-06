@@ -2,6 +2,7 @@ import MesaReservaService from "./reservasMesasService.js";
 
 let mesaReservaService = new MesaReservaService();
 
+
 //getMesaReserva();
 
 function getMesaReserva() {
@@ -21,3 +22,5 @@ function showMesas(mesas) {
         console.log(mesa);
     }) */
 }
+
+
